@@ -42,7 +42,7 @@ function Nav(props) {
               key={category.name}
             >
               <span
-                onCLick={() => {
+                onClick={() => {
                   setCurrentCategory(category);
                 }}
               >
